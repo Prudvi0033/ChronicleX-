@@ -3,7 +3,15 @@
   "name": "server",
   "main": "src/index.ts",
   "compatibility_date": "2025-02-23",
+  "compatibility_flags": ["nodejs_compat"], 
   "vars": {
     "DATABASE_URL": "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNTg3MTdhYmQtNDE5NC00OTM5LTkwMmUtMjQzMmRhNGQ5M2I1IiwidGVuYW50X2lkIjoiMTkyODk0MTZmNDIxZmZhMDBmMmY5OWVlZjliYzFkMTRmZTNjMjkyYzU2YWY4OWEyMGQ3MjBmZjVkNDQ2YWE1NCIsImludGVybmFsX3NlY3JldCI6ImZmZWQ4ZjYyLTVmNzQtNGY1NS1hMGYzLTY4YjE4ODdkNzQ5ZiJ9.gLA5e0e0wYmj1yc_GoBwdheF0xXRGX9JRTqXpqQFSto"
-  } 
-}  
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
