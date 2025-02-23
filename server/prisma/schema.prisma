@@ -12,7 +12,7 @@ model User {
   email    String  @unique
   name     String?
   password String
-  posts    Posts[]  // One user can have multiple posts
+  posts    Posts[]  
 }
 
 model Posts {
